@@ -79,7 +79,7 @@ export const Navbar = () => {
         </div>
 
         {isMenuOpen && (
-          <div className="md:hidden mt-4 bg-brandPrimary text-white px-4 py-6 space-y-4 fixed top-0 left-0 right-0">
+          <div className="md:hidden mt-4 bg-[#9fa0a1] text-white px-4 py-6 space-y-4 fixed top-0 left-0 right-0">
             {navItems.map(({ link, path }) => (
               <Link
                 to={path}

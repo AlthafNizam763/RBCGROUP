@@ -11,10 +11,10 @@ export const About = () => {
           </div>
 
           <div className="md:w-3/5 mx-auto">
-            <h2 className="text-4xl text-neutralDGrey font-semibold mb-4 md:w-4/5">
+            <h2 className="text-4xl text-neutral-900 font-semibold mb-4 md:w-4/5">
             Royal Business Corporation
             </h2>
-            <p className="md:w-3/4 text-sm text-neutralDGrey mb-8">
+            <p className="md:w-3/4 text-sm text-neutral-900 mb-8">
             Royal Business Corporation As an administrative business  group, our company deals with manufacturing, exporting, and distribution of household items, medical equipment, and consumer products. Vacancy comes as office based administrative distribution category. 
             </p>
             {/* <button className="btn-primary">Learn More</button> */}
@@ -25,7 +25,7 @@ export const About = () => {
       <div className="px-4 lg:px-4 max-w-screen-2xl mx-auto bg-neutralSilver py-16">
         <div className="flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="md:w-1/2">
-            <h2 className="text-4xl text-neutralDGrey font-semibold mb-4 md:w-2/3">
+            <h2 className="text-4xl text-neutral-900 font-semibold mb-4 md:w-2/3">
               Helping a local <br />
               <span className="text-orange-500">
                 business reinvent itself
@@ -51,7 +51,7 @@ export const About = () => {
                   />
                 </svg>
                 <div>
-                  <h4 className="text-2xl text-neutralDGrey font-semibold">
+                  <h4 className="text-2xl text-neutral-900 font-semibold">
                     2,245,341
                   </h4>
                   <p>Members</p>
@@ -83,7 +83,7 @@ export const About = () => {
                   />
                 </svg>
                 <div>
-                  <h4 className="text-2xl text-neutralDGrey font-semibold">
+                  <h4 className="text-2xl text-neutral-900 font-semibold">
                     46,328
                   </h4>
                   <p>Clubs</p>
@@ -113,7 +113,7 @@ export const About = () => {
                   />
                 </svg>
                 <div>
-                  <h4 className="text-2xl text-neutralDGrey font-semibold">
+                  <h4 className="text-2xl text-neutral-900 font-semibold">
                     828,867
                   </h4>
                   <p>Event Bookings</p>
@@ -135,7 +135,7 @@ export const About = () => {
                   />
                 </svg>
                 <div>
-                  <h4 className="text-2xl text-neutralDGrey font-semibold">
+                  <h4 className="text-2xl text-neutral-900 font-semibold">
                     1,926,436
                   </h4>
                   <p>Payments</p>
