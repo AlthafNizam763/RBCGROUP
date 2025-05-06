@@ -1,16 +1,20 @@
 {
-  "name": "agency-reactjs-tailwindcss",
+  "name": "rbcgroup-MoReExperts",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://AlthafNizam763.github.io/rbcgroup",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "flowbite-react": "^0.6.4",
+    "gh-pages": "^6.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.11.0",
