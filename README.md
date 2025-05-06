@@ -1,4 +1,4 @@
-# Agency Website - React Js
+# RBC GROUP Website - React Js
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
@@ -20,7 +20,7 @@ This is an responsive website created using React + Vite and Tailwind CSS.
 - Tailwind CSS
 
 ### Deployment in production
-- Front end web: Netlify
+- Front end web
 
 ## Settings and improvements
 
