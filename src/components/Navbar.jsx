@@ -55,7 +55,7 @@ export const Navbar = () => {
                 smooth={true}
                 offset={-100}
                 key={path}
-                className="text-base text-white hover:text-brandPrimary cursor-pointer"
+                className="text-base text-white hover:text-orange-500 cursor-pointer"
               >
                 {link}
               </Link>
@@ -63,7 +63,7 @@ export const Navbar = () => {
           </ul>
 
           {/* <div className="hidden lg:flex space-x-6 items-center">
-            <a className="text-brandPrimary hover:text-gray-900" href="#">
+            <a className="text-orange-500 hover:text-gray-900" href="#">
               Login
             </a>
             <button className="bg-brandPrimary text-white py-2 px-4 rounded hover:bg-neutralGrey transition">
@@ -93,7 +93,7 @@ export const Navbar = () => {
                 {link}
               </Link>
             ))}
-            {/* <button className="w-full mt-4 py-2 bg-white text-brandPrimary rounded hover:bg-neutral-100 transition">
+            {/* <button className="w-full mt-4 py-2 bg-white text-orange-500 rounded hover:bg-neutral-100 transition">
               Sign up
             </button> */}
           </div>

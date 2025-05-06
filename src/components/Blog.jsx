@@ -9,8 +9,8 @@ import user2 from "../assets/user2.png";
 import bg2 from "../assets/bg2.png";
 import user3 from "../assets/user3.png";
 import bg3 from "../assets/bg3.png";
-import experience from "../assets/Experience.png"; // Add actual image if needed
-import materialsImg from "../assets/materials.png"; // Add actual image if needed
+import experience from "../assets/Experience.png"; 
+import materialsImg from "../assets/materials.png"; 
 
 const testimonials = [
   {
@@ -55,7 +55,7 @@ export const Blog = () => {
               who are professionals in their fields with an elegant and luxurious style and with premium
               quality materials.
             </p>
-            <a href="#" className="text-orange-500 font-medium hover:underline">More Info</a>
+            {/* <a href="#" className="text-orange-500 font-medium hover:underline">More Info</a> */}
           </div>
         </div>
       </section>
@@ -72,7 +72,7 @@ export const Blog = () => {
               Because Panto was very serious about designing furniture for our environment, using a very
               expensive and famous capital but at a relatively low price.
             </p>
-            <a href="#" className="text-orange-500 font-medium hover:underline">More Info</a>
+            {/* <a href="#" className="text-orange-500 font-medium hover:underline">More Info</a> */}
           </div>
           <div className="relative rounded-xl overflow-hidden shadow-md order-1 md:order-2">
             <img src={materialsImg} alt="Materials" className="w-full h-auto object-cover rounded-xl" />

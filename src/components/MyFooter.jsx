@@ -57,10 +57,17 @@ export const MyFooter = () => {
 
       {/* Footer bottom */}
       <div className="flex flex-col md:flex-row justify-between items-center mt-16 text-gray-400 text-sm">
-        <p>Copyright © 2021</p>
+      <p>Copyright © {new Date().getFullYear()}</p>
         <div className="flex space-x-6 mt-4 md:mt-0">
-          <a href="#" className="hover:underline">Terms & Conditions</a>
-          <a href="#" className="hover:underline">Privacy Policy</a>
+        <a 
+         href="https://althafnizam763.github.io/xpalico/" 
+         className="hover:underline" 
+         target="_blank" 
+         rel="noopener noreferrer"
+        >
+         Working Tearm
+        </a>
+        <a href="#" className="hover:underline">Privacy Policy</a>
         </div>
       </div>
     </footer>

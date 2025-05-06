@@ -21,12 +21,22 @@ export const Services = () => {
 
   return (
     <section className="py-16 px-6 md:px-20 bg-white" id="service">
-      <h2 className="text-2xl font-semibold mb-10">Why Choosing Us</h2>
-      <div className="grid md:grid-cols-3 gap-10">
+      <div className="mb-10">
+        <h2 className="text-3xl font-bold text-neutral-900 leading-tight">
+          Why <br /> Choosing Us
+        </h2>
+      </div>
+
+      <div className="grid md:grid-cols-3 gap-8">
         {features.map((item, i) => (
-          <div key={i} className="p-6 border rounded-xl shadow-sm">
-            <h3 className="text-lg font-semibold mb-2">{item.title}</h3>
-            <p className="text-sm text-gray-600">{item.desc}</p>
+          <div key={i} className="space-y-4">
+            <h3 className="text-lg font-semibold text-neutral-900">
+              {item.title}
+            </h3>
+            <p className="text-sm text-gray-500">{item.desc}</p>
+            {/* <a href="#" className="text-sm text-orange-500 font-medium inline-flex items-center gap-1 hover:underline">
+              More Info <span>→</span>
+            </a> */}
           </div>
         ))}
       </div>
