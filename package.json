@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": " https://althafnizam763.github.io/Home",
+  "homepage": " https://althafnizam763.github.io/RBCGROUP/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
